@@ -145,6 +145,7 @@ private slots:
     void Slot_ANI(int);                 // void call(Aдркласса, Nчисло, int);
     void Slot_ANB(bool);                // void call(Aдркласса, Nчисло, bool);
     void Slot_ANII(int, int);           // void call(Aдркласса, Nчисло, int, int);
+    void Slot_ANIIII(int, int, int, int);
     void Slot_ANQ(QObject*);            // void call(Aдркласса, Nчисло, QObject*);
     void Slot_ANQ(QMdiSubWindow*);      // void call(Aдркласса, Nчисло, QObject*);
 

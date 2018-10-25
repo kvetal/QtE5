@@ -1360,6 +1360,13 @@ extern "C" typedef void  (*ExecZIM_ANII)(void*, int, int, int);
 void eAction::Slot_ANII(int z, int z2) {
     if (aSlotN != NULL)  ((ExecZIM_ANII)aSlotN)(*(void**)aDThis, N, z, z2);
 }
+
+extern "C" typedef void  (*ExecZIM_ANIIII)(void*, int, int, int, int, int);
+void eAction::Slot_ANIIII(int z, int z2, int z3, int z4) {
+    if (aSlotN != NULL)  ((ExecZIM_ANIIII)aSlotN)(*(void**)aDThis, N, z, z2, z3, z4);
+}
+
+
 extern "C" typedef void  (*ExecZIM_ANB)(void*, int, int);
 void eAction::Slot_ANB(bool z) {
     if (aSlotN != NULL)  ((ExecZIM_ANB)aSlotN)(*(void**)aDThis, N, z);
